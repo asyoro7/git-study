@@ -1,0 +1,51 @@
+.btn-flat-dashed-border {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color:rgb(255, 130, 130);
+    border: dashed 1px rgb(255, 162, 162);
+    border-radius: 3px;
+    transition: .4s;
+  }
+  
+  .btn-flat-dashed-border:hover {
+    border-style: dotted;
+    color:black;}
+  p {color:black;}
+  p2 {color:black;}
+  p3 {color:black;}
+  p6 {color:black;}
+  h2 {color:#ffa089;}
+  a:link { color:#ffa089; text-decoration:none }
+  a:visited{
+    color: #ffa089;
+    }
+  * {
+    margin:0; padding:0;
+  }
+  header {
+    width: 100%;
+    height: 350px;
+    padding: 5px 0;
+    text-align: center;
+    color: #ffa089;
+    background-image: url("http://tv.violet-evergarden.jp/img/top/top_story.jpg");
+    background-position: above bottom;
+    background-size: cover;
+  }
+  header .headline{
+      line-height:170px;
+      font-size: 43px;
+      text-decoration: underline;
+  }
+  .nav-list {
+      line-height: 215px;
+      list-style: none;
+      font-weight: bold;
+  }
+  .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 70px;
+    font-size: 27px;
+  }
